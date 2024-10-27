@@ -5,9 +5,42 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6EDEBD67-6189-451D-AF79-CC069E347CED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker-compose", "docker-compose", "{0B6ADE96-1D58-4627-9E9C-1122DCF55CDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{69637E52-BACE-4F64-B74E-81714C908234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF10F9BC-6B16-4F72-9359-075F80E37043}"
+	ProjectSection(SolutionItems) = preProject
+		sdsad.txt = sdsad.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "test\UnitTestProject1\UnitTestProject1.csproj", "{A3A4C611-7C7B-442C-B34C-71C5BCD4521A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{186A7DDB-B6F3-47FB-8687-1D65ADF9E02E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{875E4282-7226-4233-9284-28C213DCE6BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBus", "ServiceBus", "{470444F1-CCEC-48BF-8AA9-C20B3924F010}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3A4C611-7C7B-442C-B34C-71C5BCD4521A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A4C611-7C7B-442C-B34C-71C5BCD4521A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A4C611-7C7B-442C-B34C-71C5BCD4521A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A4C611-7C7B-442C-B34C-71C5BCD4521A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3A4C611-7C7B-442C-B34C-71C5BCD4521A} = {69637E52-BACE-4F64-B74E-81714C908234}
+		{186A7DDB-B6F3-47FB-8687-1D65ADF9E02E} = {6EDEBD67-6189-451D-AF79-CC069E347CED}
+		{875E4282-7226-4233-9284-28C213DCE6BA} = {6EDEBD67-6189-451D-AF79-CC069E347CED}
+		{470444F1-CCEC-48BF-8AA9-C20B3924F010} = {6EDEBD67-6189-451D-AF79-CC069E347CED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D8CCC56-7BFA-4ECE-BD24-25E7A7B9B495}
