@@ -24,7 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBus", "ServiceBus", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InvoiceService", "InvoiceService", "{E254C256-1CFA-4ABC-B9FF-34237062F589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.Services.InvoiceService.Application", "src\Services\InvoiceService\Core\Erp.Services.InvoiceService.Application\Erp.Services.InvoiceService.Application.csproj", "{28C8524E-CA59-4B3F-A9F5-E2A85F2F167E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erp.Services.InvoiceService.Application", "src\Services\InvoiceService\Core\Erp.Services.InvoiceService.Application\Erp.Services.InvoiceService.Application.csproj", "{28C8524E-CA59-4B3F-A9F5-E2A85F2F167E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1DAD34AA-32F3-46BC-BEC8-D64A744350C8}"
 EndProject
@@ -32,13 +32,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{D258F5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{60973EF9-3DC5-4BF2-9BAD-09D30C27B79E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.Services.InvoiceService.Persistance", "src\Services\InvoiceService\Infrastructure\Erp.Services.InvoiceService.Persistance\Erp.Services.InvoiceService.Persistance.csproj", "{55A7D5E1-4E21-481E-8AE5-5719635EC96F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erp.Services.InvoiceService.Persistance", "src\Services\InvoiceService\Infrastructure\Erp.Services.InvoiceService.Persistance\Erp.Services.InvoiceService.Persistance.csproj", "{55A7D5E1-4E21-481E-8AE5-5719635EC96F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.Services.InvoiceService.Infrastructure", "src\Services\InvoiceService\Infrastructure\Erp.Services.InvoiceService.Infrastructure\Erp.Services.InvoiceService.Infrastructure.csproj", "{9D683F95-10B4-4071-8EE2-CDDC504ACA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erp.Services.InvoiceService.Infrastructure", "src\Services\InvoiceService\Infrastructure\Erp.Services.InvoiceService.Infrastructure\Erp.Services.InvoiceService.Infrastructure.csproj", "{9D683F95-10B4-4071-8EE2-CDDC504ACA8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.Services.InvoiceService.Domain", "src\Services\InvoiceService\Core\Erp.Services.InvoiceService.Domain\Erp.Services.InvoiceService.Domain.csproj", "{6E50BA56-223A-4109-A492-1A9BAB2F5F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erp.Services.InvoiceService.Domain", "src\Services\InvoiceService\Core\Erp.Services.InvoiceService.Domain\Erp.Services.InvoiceService.Domain.csproj", "{6E50BA56-223A-4109-A492-1A9BAB2F5F65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.Services.InvoiceService.WebApi", "src\Services\InvoiceService\WebApi\Erp.Services.InvoiceService.WebApi\Erp.Services.InvoiceService.WebApi.csproj", "{3EE505DE-FD89-42BA-B6BD-60EEAC35D528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erp.Services.InvoiceService.WebApi", "src\Services\InvoiceService\WebApi\Erp.Services.InvoiceService.WebApi\Erp.Services.InvoiceService.WebApi.csproj", "{3EE505DE-FD89-42BA-B6BD-60EEAC35D528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{5F98AA79-BCB8-4866-824C-A42F74142664}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryService", "InventoryService", "{E56C7FF7-4348-4A3A-BFB9-CA92C0F270CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erp.Services.InventoryService.Api", "src\Services\InventoryService\Erp.Services.InventoryService.Api\Erp.Services.InventoryService.Api.csproj", "{3DDC5E4B-7B08-499F-9636-71F8EE59A996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +76,10 @@ Global
 		{3EE505DE-FD89-42BA-B6BD-60EEAC35D528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE505DE-FD89-42BA-B6BD-60EEAC35D528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE505DE-FD89-42BA-B6BD-60EEAC35D528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DDC5E4B-7B08-499F-9636-71F8EE59A996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDC5E4B-7B08-499F-9636-71F8EE59A996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDC5E4B-7B08-499F-9636-71F8EE59A996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDC5E4B-7B08-499F-9636-71F8EE59A996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +98,9 @@ Global
 		{9D683F95-10B4-4071-8EE2-CDDC504ACA8B} = {60973EF9-3DC5-4BF2-9BAD-09D30C27B79E}
 		{6E50BA56-223A-4109-A492-1A9BAB2F5F65} = {1DAD34AA-32F3-46BC-BEC8-D64A744350C8}
 		{3EE505DE-FD89-42BA-B6BD-60EEAC35D528} = {D258F514-EEFD-4409-86C8-EA9FBFEEE3CD}
+		{5F98AA79-BCB8-4866-824C-A42F74142664} = {6EDEBD67-6189-451D-AF79-CC069E347CED}
+		{E56C7FF7-4348-4A3A-BFB9-CA92C0F270CD} = {186A7DDB-B6F3-47FB-8687-1D65ADF9E02E}
+		{3DDC5E4B-7B08-499F-9636-71F8EE59A996} = {E56C7FF7-4348-4A3A-BFB9-CA92C0F270CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D8CCC56-7BFA-4ECE-BD24-25E7A7B9B495}
